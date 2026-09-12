@@ -10,7 +10,7 @@ aliases: ["/projects/javai-r/"]
 
 ## Why it exists
 
-The mavai family includes multiple independent implementations of the same statistical methodology: [punit](/projects/punit/) (Java), feotest (Rust), and future frameworks in other languages. Each implements Wilson score confidence intervals, threshold derivation, power analysis, feasibility checking, and verdict evaluation independently, in its own language and idiom.
+The mavai family includes multiple independent implementations of the same statistical methodology: [punit](/projects/punit/) (Java), [feotest](/projects/feotest/) (Rust), [baseltest](/projects/baseltest/) (Python), and future frameworks in other languages. Each implements Wilson score confidence intervals, threshold derivation, power analysis, feasibility checking, and verdict evaluation independently, in its own language and idiom.
 
 mavai-R provides the shared truth. If your implementation produces results that match the R-generated reference data within stated tolerances, it conforms. No need to trust a Java or Rust implementation — the expected outputs come from R's well-vetted statistical functions.
 
