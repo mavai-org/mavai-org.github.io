@@ -29,9 +29,9 @@ Each suite is published as a JSON file containing test cases with inputs, expect
 
 ## The Statistical Companion
 
-mavai-R hosts the [Statistical Companion](https://r.mavai.org/STATISTICAL-COMPANION.html) — the formal mathematical foundation for the entire mavai methodology. This document provides a rigorous treatment of the hypothesis testing, confidence intervals, power analysis, and threshold derivation methods that all mavai frameworks implement.
+mavai-R hosts the [Statistical Companion](https://r.mavai.org/statistical-companion.pdf) — the formal mathematical foundation for the entire mavai methodology. This document provides a rigorous treatment of the hypothesis testing, confidence intervals, power analysis, and threshold derivation methods that all mavai frameworks implement.
 
-It also hosts the [Distributional Contracts](https://r.mavai.org/DISTRIBUTIONAL-CONTRACTS.html) paper, which extends Bertrand Meyer's Design by Contract to stochastic systems by lifting postconditions from Boolean predicates to statistical assertions.
+It also hosts the [Distributional Contracts](https://r.mavai.org/distributional-contracts.pdf) paper, which extends Bertrand Meyer's Design by Contract to stochastic systems by lifting postconditions from Boolean predicates to statistical assertions.
 
 ## Designed to grow
 
