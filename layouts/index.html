@@ -37,16 +37,16 @@
     <h2>Our Approach</h2>
     <div class="approach-grid">
       <div class="approach-item">
-        <h3>Measure</h3>
-        <p>Define statistical expectations for your system's behaviour. Assert against distributions, not exact values. punit gives you the vocabulary to express what "correct" means in a non-deterministic context.</p>
+        <h3>Baseline</h3>
+        <p>Any one call can be judged right or wrong. What nobody knows in advance is how often the service gets it right. A baseline measures that rate at a stated confidence and records it together with the model, the prompts, and the circumstances it was measured under.</p>
       </div>
       <div class="approach-item">
-        <h3>Regress</h3>
-        <p>Detect when your system drifts beyond acceptable bounds. Run repeatable hypothesis tests in CI/CD and catch performance degradation before it reaches production.</p>
+        <h3>Monitor</h3>
+        <p>Hold the service to its baseline for as long as it runs. Every release, every model or prompt change, and on a schedule in between, the live service is tested against the baseline, and drift beyond the agreed bounds is flagged at the confidence the baseline was set at.</p>
       </div>
       <div class="approach-item">
-        <h3>Trust</h3>
-        <p>Produce auditable, structured evidence that your AI systems perform as expected. Give regulators, auditors, and risk committees the confidence they need.</p>
+        <h3>Comply</h3>
+        <p>Hold the service to a contract. The contract states what a good response is and the rate at which it must be delivered, and every verdict says whether the service complies, at the stated confidence. Where a regulator, a customer or a standard sets the bar, the same contract carries it, and the record of every measurement and verdict is the evidence they ask for.</p>
       </div>
     </div>
   </div>
