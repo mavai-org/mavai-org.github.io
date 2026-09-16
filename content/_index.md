@@ -9,15 +9,12 @@ nutshell:
     - title: "Baseline"
       body: >-
         Any one call can be judged right or wrong. What nobody knows in advance is
-        how often the service gets it right. A baseline measures that rate at a
-        stated confidence and records it together with the model, the prompts, and
-        the circumstances it was measured under.
+        how often the service gets it right. A baseline measures that rate over a stated number of runs and records it together with the model, the prompts, and the circumstances it was measured under.
     - title: "Monitor"
       body: >-
         Hold the service to its baseline for as long as it runs. Every release,
         every model or prompt change, and on a schedule in between, the live
-        service is tested against the baseline, and drift beyond the agreed bounds
-        is flagged at the confidence the baseline was set at.
+        service is tested against the baseline, and a fresh sample whose success rate falls below the bound the baseline implies is flagged as degradation, with a stated confidence.
     - title: "Comply"
       body: >-
         The baseline is the record, monitoring is the evidence, and the method is

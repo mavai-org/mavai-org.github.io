@@ -507,13 +507,22 @@ pre code {
 
 /* ---- Content pages ---- */
 .content-single {
-  padding: var(--space-xxl) 0;
+  padding: var(--space-lg) 0 var(--space-xl);
 }
 
 .content-header {
-  margin-bottom: var(--space-lg);
+  max-width: 720px;
+  margin: 0 auto var(--space-lg);
   padding-bottom: var(--space-md);
   border-bottom: 1px solid var(--color-border);
+}
+
+/* Everything in the article column shares the body's measure and centring. */
+.content-single .engagement,
+.content-single .copyright-notice {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-header time {
@@ -543,10 +552,11 @@ pre code {
 
 .content-body {
   max-width: 720px;
+  margin: 0 auto;
 }
 
-.content-body h2 { margin-top: var(--space-xl); }
-.content-body h3 { margin-top: var(--space-lg); }
+.content-body h2 { margin-top: var(--space-lg); }
+.content-body h3 { margin-top: var(--space-md); }
 
 .content-body img {
   max-width: 100%;

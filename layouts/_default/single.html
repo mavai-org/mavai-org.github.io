@@ -11,13 +11,16 @@
 {{ partial "section-banner.html" (dict "title" .Title "subtitle" (or .Params.subtitle .Description) "color" $color) }}
 <article class="content-single">
   <div class="container">
+    {{- $author := index .Site.Params.authors (default "" .Params.author) -}}
+    {{- if or (not .Date.IsZero) $author .Params.summary }}
     <header class="content-header">
-      {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 January 2006" }}</time>{{ end }}
-      {{ with index .Site.Params.authors (default "" .Params.author) }}
+      {{ with .Date }}{{ if not .IsZero }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format "2 January 2006" }}</time>{{ end }}{{ end }}
+      {{ with $author }}
       <p class="content-byline">By {{ .name }}</p>
       {{ end }}
       {{ with .Params.summary }}<p class="lead">{{ . }}</p>{{ end }}
     </header>
+    {{- end }}
     <div class="content-body">
       {{ .Content }}
     </div>
