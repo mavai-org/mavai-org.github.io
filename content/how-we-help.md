@@ -2,18 +2,28 @@
 title: "How We Help"
 description: "A statistical baseline for every AI service you deploy, then continuous monitoring against it — the evidence the EU AI Act, ISO/IEC 42001 and sector supervisors ask for."
 keywords: ["AI compliance", "EU AI Act Article 72", "post-market monitoring AI", "AI baseline", "LLM monitoring", "ISO 42001", "NIST AI RMF", "FINMA AI", "AI assurance", "statistical baseline"]
-summary: "Mavai Methodologies establishes what your AI service actually does, records it as a statistical baseline, and monitors the live service against that baseline for the life of the project. Regulatory compliance is the outcome."
+summary: "Baseline. Monitor. Comply. Mavai Methodologies measures how often your AI service gets it right, records that as a baseline, monitors the live service against it for the life of the project, and holds it to a contract that regulation can share."
 ---
 
 ## What a client gets
 
 A service built on a language model does not pass or fail. It succeeds at a rate, and that rate moves whenever the model, the prompts or the circumstances change. Mavai Methodologies turns that fact into something you can know rather than hope. Quality is the point; regulation is the reason more teams are now asking for it.
 
-**A baseline for each service.** We measure the service as deployed and record the result as a baseline: the model and version, the system prompt, the family of user prompts, the success rate they achieve at a stated confidence, the latency profile, and the covariates that describe the circumstances under which the measurement was made. The baseline belongs to the service, not to the model. Change any of its parts and the baseline no longer applies, which is exactly what you want a regulator to see.
+Three things, in order: **Baseline. Monitor. Comply.**
 
-**Continuous monitoring against it.** From then on the live service is tested against its baseline as part of your normal delivery pipeline: every release, every model update, every prompt change, and on a schedule in between. Drift beyond the agreed bounds is flagged, at the confidence the baseline was set at, before it reaches production, let alone a supervisor. This is oversight across the whole project lifecycle, not a one-off audit before go-live.
+### Baseline
 
-**Evidence you can hand over.** Every measurement and every verdict is persisted as a structured record that states what was measured, how many times, against what bar and at what confidence. Anyone can repeat the procedure on the same service, and anyone can check that the verdict follows from the record. The confidence level is part of the claim, and the record says so.
+Any one call can be judged right or wrong. What nobody knows in advance is how often the service gets it right. We measure the service as deployed and record the result as a baseline: the model and version, the system prompt, the family of user prompts, the success rate they achieve at a stated confidence, the latency profile, and the covariates that describe the circumstances under which the measurement was made. The baseline belongs to the service, not to the model. Change any of its parts and the baseline no longer applies, which is exactly what you want a regulator to see.
+
+### Monitor
+
+From then on the live service is tested against its baseline as part of your normal delivery pipeline: every release, every model update, every prompt change, and on a schedule in between. Drift beyond the agreed bounds is flagged, at the confidence the baseline was set at, before it reaches production, let alone a supervisor. This is oversight across the whole project lifecycle, not a one-off audit before go-live.
+
+### Comply
+
+The service is held to a contract: what a good response is, and the rate at which it must be delivered. Every verdict says whether the service complies, at the stated confidence. Where a regulator, a customer or a standard sets the bar, the same contract carries it.
+
+Every measurement and every verdict is persisted as a structured record that states what was measured, how many times, against what bar and at what confidence. Anyone can repeat the procedure on the same service, and anyone can check that the verdict follows from the record. The confidence level is part of the claim, and the record says so.
 
 ## What has to change in your project
 
