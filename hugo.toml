@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [params]
   description = "Bringing solutions to difficult questions of testing non-deterministic systems, such as AI."
   author = "Mavai"
-  tagline = "Baseline. Monitor. Comply."
+  tagline = "Baseline · Monitor · Comply"
   ogImage = "images/og-default.png"
   # Search engine ownership verification. Paste the token from Google Search
   # Console (Settings → Ownership verification → HTML tag) and Bing Webmaster
