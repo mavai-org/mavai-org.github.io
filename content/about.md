@@ -5,7 +5,7 @@ description: "What mavai.org is, and who is behind it."
 
 ## About mavai.org
 
-**mavai.org** is the technical home of the Mavai project family — open-source frameworks and tooling for testing systems whose behaviour is non-deterministic by nature: LLM-backed services, recommender systems, ML pipelines, and any service whose output is a *distribution*, not a single value.
+**mavai.org** is the technical home of the Mavai™ project family — open-source frameworks and tooling for testing systems whose behaviour is non-deterministic by nature: LLM-backed services, recommender systems, ML pipelines, and any service whose output is a *distribution*, not a single value.
 
 The site hosts the projects, explains the methodology behind them, and publishes **Signals** — long-form essays on software engineering, software quality, and engineering leadership in an age when AI has reset both the economics of writing code and the epistemics of trusting it. Signals draws on decades of practice and on recent work with machine learning, AI, and agentic systems. It is written for serious engineers, the leaders responsible for them, and the investors whose money is exposed to the difference.
 

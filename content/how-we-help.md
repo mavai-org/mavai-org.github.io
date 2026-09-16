@@ -7,7 +7,7 @@ summary: "Baseline · Monitor · Comply Mavai Methodologies measures how often y
 
 ## What a client gets
 
-A service built on a language model does not pass or fail. It succeeds at a rate, and that rate moves whenever the model, the prompts or the circumstances change. Mavai Methodologies turns that fact into something you can know rather than hope. Quality is the point; regulation is the reason more teams are now asking for it.
+A service built on a language model does not pass or fail. It succeeds at a rate, and that rate moves whenever the model, the prompts or the circumstances change. Mavai™ Methodologies turns that fact into something you can know rather than hope. Quality is the point; regulation is the reason more teams are now asking for it.
 
 Three things, in order: **Baseline · Monitor · Comply**
 
