@@ -9,6 +9,8 @@ description: "What mavai.org is, and who is behind it."
 
 The site hosts the projects, explains the methodology behind them, and publishes **Signals** — long-form essays on software engineering, software quality, and engineering leadership in an age when AI has reset both the economics of writing code and the epistemics of trusting it. Signals draws on decades of practice and on recent work with machine learning, AI, and agentic systems. It is written for serious engineers, the leaders responsible for them, and the investors whose money is exposed to the difference.
 
+One principle runs through all of it: quality is the point. Regulation is the lever that is bringing the question to more teams, and [How We Help](/how-we-help/) is written for the teams it reaches, but the approach is no more specific to regulated industries than statistics is.
+
 The companion site [mavai.ch](https://mavai.ch) covers the regulatory side — AI compliance developments affecting Switzerland and the EU.
 
 ## Founder
