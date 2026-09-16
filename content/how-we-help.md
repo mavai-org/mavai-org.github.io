@@ -1,6 +1,6 @@
 ---
 title: "How We Help"
-description: "A statistical baseline for every AI service you deploy, then continuous monitoring against it — the evidence the EU AI Act, ISO/IEC 42001 and sector supervisors ask for."
+description: "A statistical baseline for every AI service you deploy, then continuous monitoring against it — the evidence the EU AI Act, ISO/IEC 42001 and sector supervisory guidance require."
 keywords: ["AI compliance", "EU AI Act Article 72", "post-market monitoring AI", "AI baseline", "LLM monitoring", "ISO 42001", "NIST AI RMF", "FINMA AI", "AI assurance", "statistical baseline"]
 summary: "Baseline · Monitor · Comply Mavai Methodologies measures how often your AI service gets it right, records that as a baseline, monitors the live service against it for the life of the project, and holds it to a contract that regulation can share."
 ---
@@ -38,9 +38,9 @@ We help teams make that shift: designing the contracts, sizing the evidence, int
 
 ## Compliance as the outcome
 
-We do not sell compliance. We produce the evidence a team needs to trust its own service, and the regulatory regimes turn out to ask for the same evidence:
+We do not sell compliance. We produce the evidence a team needs to trust its own service, and the regulatory instruments require the same evidence:
 
-| Requirement | What it asks for | What the practice provides |
+| Requirement | What it requires | What the practice provides |
 |---|---|---|
 | EU AI Act, Art. 9 | A risk-management system that runs across the whole lifecycle, with testing against defined metrics | Baselines with stated thresholds and confidence; regression at every change |
 | EU AI Act, Art. 72 | Post-market monitoring that actively collects performance data through the system's lifetime | Scheduled monitoring against the baseline, with drift detection |
