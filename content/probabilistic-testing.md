@@ -58,6 +58,10 @@ ecosystems, validated against a shared statistical oracle:
   as a JUnit 5 & 6 extension. The reference implementation. Probabilistic tests,
   experiment modes, latency percentiles, empirical baselines, and compliance
   checks. See the [worked examples](/projects/punitexamples/).
+- **[baseltest](/projects/baseltest/)** — probabilistic testing for **Python**.
+  Declarative-first: one contract file and one command-line tool to check,
+  explore, optimise, measure and test a stochastic service, with direct Python
+  authorship as the graduation path.
 - **[feotest](/projects/feotest/)** — a **Rust**-native probabilistic testing
   framework. Idiomatic Rust, not a port.
 - **[mavai-R](/projects/mavai-r/)** — the statistical oracle: R-generated
