@@ -21,7 +21,7 @@ From then on the live service is tested against its baseline as part of your nor
 
 ### Comply
 
-The service is held to a contract: what a good response is, and the rate at which it must be delivered. Every verdict says whether the service complies, at the stated confidence. Where a regulator, a customer or a standard sets the bar, the same contract carries it.
+Regulators ask for three things: a record of what was measured, evidence that the service is still being watched, and a method that others can inspect. The baseline is the record. Monitoring is the evidence. And the method is already documented in public: the [Statistical Companion](https://r.mavai.org/statistical-companion.pdf) sets out the statistics, and the [open-source frameworks](/projects/) implement it line by line. That is the technical documentation the EU AI Act asks for, and what any supervisor, auditor or standard can read.
 
 Every measurement and every verdict is persisted as a structured record that states what was measured, how many times, against what bar and at what confidence. Anyone can repeat the procedure on the same service, and anyone can check that the verdict follows from the record. The confidence level is part of the claim, and the record says so.
 
@@ -44,7 +44,7 @@ We do not sell compliance. We produce the evidence a team needs to trust its own
 |---|---|---|
 | EU AI Act, Art. 9 | A risk-management system that runs across the whole lifecycle, with testing against defined metrics | Baselines with stated thresholds and confidence; regression at every change |
 | EU AI Act, Art. 72 | Post-market monitoring that actively collects performance data through the system's lifetime | Scheduled monitoring against the baseline, with drift detection |
-| EU AI Act, Annex IV | Technical documentation including validation and testing procedures, metrics and results | The persisted measurement and verdict records |
+| EU AI Act, Art. 11 and Annex IV | Technical documentation of the method, its validation and testing procedures, metrics and results | The Statistical Companion and the open-source frameworks document the method; the persisted records hold the testing and results |
 | ISO/IEC 42001 | An AI management system with performance evaluation and continual improvement | The same records, organised as management-system evidence |
 | NIST AI RMF | Measure and Manage functions: quantitative evaluation and ongoing monitoring | Baselines and monitoring are the measures |
 | FINMA guidance on AI | Governance, inventory, and demonstrable control of model risk | Per-service baselines are the inventory and the control |
