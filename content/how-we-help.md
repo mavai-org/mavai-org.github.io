@@ -21,7 +21,7 @@ From then on the live service is tested against its baseline as part of your nor
 
 ### Comply
 
-Regulators ask for three things: a record of what was measured, evidence that the service is still being watched, and a method that others can inspect. The baseline is the record. Monitoring is the evidence. And the method is already documented in public: the [Statistical Companion](https://r.mavai.org/statistical-companion.pdf) sets out the statistics, and the [open-source frameworks](/projects/) implement it line by line. That is the technical documentation the EU AI Act asks for, and what any supervisor, auditor or standard can read.
+The baseline is the record, monitoring is the evidence, and the method is documented in public: the [Statistical Companion](https://r.mavai.org/statistical-companion.pdf) sets out the statistics and the [open-source frameworks](/projects/) implement it line by line. Together they are the technical documentation the EU AI Act asks for, and what any supervisor, auditor or standard can read.
 
 Every measurement and every verdict is persisted as a structured record that states what was measured, how many times, against what bar and at what confidence. Anyone can repeat the procedure on the same service, and anyone can check that the verdict follows from the record. The confidence level is part of the claim, and the record says so.
 
