@@ -33,25 +33,21 @@
   </div>
 </section>
 
+{{ with .Params.nutshell }}
 <section class="approach">
   <div class="container">
-    <h2>Mavai in a Nutshell</h2>
+    <h2>{{ .heading }}</h2>
     <div class="approach-grid">
+      {{ range .cards }}
       <div class="approach-item">
-        <h3>Baseline</h3>
-        <p>Any one call can be judged right or wrong. What nobody knows in advance is how often the service gets it right. A baseline measures that rate at a stated confidence and records it together with the model, the prompts, and the circumstances it was measured under.</p>
+        <h3>{{ .title }}</h3>
+        {{ .body | markdownify }}
       </div>
-      <div class="approach-item">
-        <h3>Monitor</h3>
-        <p>Hold the service to its baseline for as long as it runs. Every release, every model or prompt change, and on a schedule in between, the live service is tested against the baseline, and drift beyond the agreed bounds is flagged at the confidence the baseline was set at.</p>
-      </div>
-      <div class="approach-item">
-        <h3>Comply</h3>
-        <p>Regulators ask for three things: a record of what was measured, evidence that the service is still being watched, and a method that others can inspect. The baseline is the record. Monitoring is the evidence. And the method is already documented in public: the <a href="https://r.mavai.org/statistical-companion.pdf">Statistical Companion</a> sets out the statistics, and the <a href="/projects/">open-source frameworks</a> implement it line by line. That is the technical documentation the EU AI Act asks for, and what any supervisor, auditor or standard can read.</p>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
+{{ end }}
 
 <section class="sectors">
   <div class="container">
