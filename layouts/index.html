@@ -9,13 +9,16 @@
     <img src="{{ $heroWebp.RelPermalink }}" alt="" loading="eager">
   </picture>
   <div class="container">
-    <h1>Testing non-deterministic systems with confidence</h1>
-    <p class="hero-sub">Bringing statistical rigour to software testing — so engineering teams can satisfy the regulatory demands of AI performance measurement and regression testing.</p>
+    <h1>Evidence that your AI service performs as you say it does</h1>
+    <p class="hero-sub">Mavai establishes a statistical baseline for each service you deploy &mdash; the model, its prompts, the success rate they achieve and the circumstances it was measured under &mdash; then monitors the service against that baseline for the life of the project. The result is evidence your own engineers act on, and that regulators and risk committees can read.</p>
     <div class="hero-cta">
-      <a href="/projects/punit/" class="btn btn-primary">Get punit</a>
-      <a href="/projects/feotest/" class="btn btn-primary">Get feotest</a>
-      <a href="/projects/" class="btn btn-secondary">Our projects</a>
+      <a href="/contact/" class="btn btn-primary">Let&rsquo;s talk</a>
+      <a href="/how-we-help/" class="btn btn-secondary">How we help</a>
     </div>
+    <p class="hero-tools">Built on open-source tools:
+      <a href="/projects/punit/">punit</a> for Java,
+      <a href="/projects/feotest/">feotest</a> for Rust,
+      <a href="/projects/baseltest/">baseltest</a> for Python.</p>
   </div>
 </section>
 
@@ -23,7 +26,7 @@
   <div class="container">
     <div class="intro-body">
       <h2>The Problem</h2>
-      <p>AI systems, probabilistic models, and non-deterministic processes are increasingly subject to regulatory scrutiny. Organisations must demonstrate measurable, reproducible evidence that these systems perform within acceptable bounds &mdash; not just once, but continuously.</p>
+      <p>If you deploy a service built on a language model, you are expected to show that it performs within acceptable bounds &mdash; not once, at go-live, but continuously, for as long as it runs. The EU AI Act, ISO/IEC 42001 and sector supervisors such as FINMA all ask the same question in different words: <em>where is the evidence?</em></p>
       <p>Traditional unit testing assumes deterministic outcomes. In reality, that assumption never withstood scrutiny. But <strong>AI means we have no choice but to manage uncertainty professionally, and that means statistically.</strong></p>
     </div>
   </div>
@@ -46,6 +49,39 @@
         <p>Produce auditable, structured evidence that your AI systems perform as expected. Give regulators, auditors, and risk committees the confidence they need.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="sectors">
+  <div class="container">
+    <h2>Who This Is For</h2>
+    <p class="sectors-lead">Regulation is why more teams are asking the question now. The method is the same wherever a service&rsquo;s behaviour is a rate rather than a value, supervised or not. We bring the implementation expertise; you bring the service.</p>
+    <div class="sector-grid">
+      <div class="sector-item">
+        <h3>Banking</h3>
+        <p>Advisory, credit and client-facing assistants under FINMA&rsquo;s expectations on AI governance and model risk, and the EU AI Act where it reaches.</p>
+      </div>
+      <div class="sector-item">
+        <h3>Healthcare</h3>
+        <p>Clinical-support and patient-facing services where the AI Act&rsquo;s high-risk obligations meet medical-device post-market surveillance.</p>
+      </div>
+      <div class="sector-item">
+        <h3>Insurance</h3>
+        <p>Underwriting, claims and pricing models whose fairness and stability must be demonstrable to the supervisor and the policyholder alike.</p>
+      </div>
+      <div class="sector-item">
+        <h3>Public Sector &amp; Supervisory Bodies</h3>
+        <p>Authorities that deploy AI themselves, or that must judge the evidence others submit, and need an independent, reproducible measure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="engagements">
+  <div class="container">
+    <h2>Current Engagements</h2>
+    <p>We are baselining and monitoring live AI services in regulated sectors today. What each baseline tells its team about the service comes before any submission does. None of these has yet been part of a completed regulatory submission, so we describe what is being measured and where each engagement stands, not results. Interim figures will be published as they firm up.</p>
+    <a href="/contact/" class="btn btn-outline">Ask about an engagement in your sector</a>
   </div>
 </section>
 
@@ -99,4 +135,12 @@
   </section>
   {{ end }}
 {{ end }}
+
+<section class="cta-banner">
+  <div class="container">
+    <h2>Let&rsquo;s talk</h2>
+    <p>Compliance changes how a project is tested, not just what is documented at the end. A first conversation covers where your service lifecycle stands today and what a baseline-and-monitor regime would mean for it.</p>
+    <a href="/contact/" class="btn btn-primary">Let&rsquo;s talk</a>
+  </div>
+</section>
 {{ end }}

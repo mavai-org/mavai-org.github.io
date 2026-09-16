@@ -313,6 +313,78 @@ pre code {
   line-height: 1.7;
 }
 
+/* ---- Hero tool line ---- */
+.hero-tools {
+  margin-top: var(--space-md);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-white);
+  opacity: 0.85;
+}
+.hero-tools a {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+/* ---- Sectors ---- */
+.sectors {
+  padding: var(--space-xxl) 0;
+  background: var(--color-surface-alt);
+}
+.sectors-lead {
+  max-width: 760px;
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-lg);
+}
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+}
+.sector-item h3 {
+  color: var(--color-accent);
+  margin-bottom: var(--space-xs);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sector-item p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ---- Engagements ---- */
+.engagements {
+  padding: var(--space-xxl) 0;
+}
+.engagements p {
+  max-width: 760px;
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+}
+
+/* ---- CTA banner ---- */
+.cta-banner {
+  padding: var(--space-xxl) 0;
+  background: var(--color-dark);
+  color: var(--color-white);
+  text-align: center;
+}
+.cta-banner h2 {
+  color: var(--color-white);
+}
+.cta-banner p {
+  max-width: 640px;
+  margin: 0 auto var(--space-md);
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
 /* ---- Flagship project ---- */
 .flagship {
   padding: var(--space-xxl) 0;
@@ -804,6 +876,11 @@ details.project-group[open] > .project-group-heading::before {
   .site-nav { gap: var(--space-sm); flex-wrap: wrap; justify-content: center; }
 
   .approach-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .sector-grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }

@@ -65,6 +65,10 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
+    name = 'How We Help'
+    pageRef = '/how-we-help'
+    weight = 1
+  [[menus.main]]
     name = 'Probabilistic Testing'
     pageRef = '/probabilistic-testing'
     weight = 5
