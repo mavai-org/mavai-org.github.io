@@ -4,7 +4,7 @@ description: "A statistical baseline for each AI service you deploy, continuous 
 keywords: ["AI baseline", "LLM monitoring", "probabilistic testing", "AI service testing", "statistical baseline", "EU AI Act", "ISO 42001", "FINMA AI", "AI evidence"]
 ---
 
-Every answer a language-model service gives can be judged right or wrong. What no single answer tells you is how often the service is right, and that rate moves whenever the model, the prompts or the circumstances change. Mavai™ turns that fact into something you can know rather than hope: a statistical baseline for each service you deploy, continuous monitoring against it, and a method documented in public. Where the EU AI Act, ISO/IEC 42001 or a sector supervisor's guidance applies to your service, the records this produces are the evidence those instruments require. Where none applies, they are the evidence you would want anyway.
+Every answer a language-model service gives can be judged right or wrong. What no single answer tells you is how often the service is right, and that rate moves whenever the model, the prompts or the circumstances change. Mavai® turns that fact into something you can know rather than hope: a statistical baseline for each service you deploy, continuous monitoring against it, and a method documented in public. Where the EU AI Act, ISO/IEC 42001 or a sector supervisor's guidance applies to your service, the records this produces are the evidence those instruments require. Where none applies, they are the evidence you would want anyway.
 
 ## Baseline
 
